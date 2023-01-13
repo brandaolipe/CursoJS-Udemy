@@ -67,3 +67,9 @@ form button:active {
     padding: 10px 20px;
     border-radius: 10px;
 }
+
+.bad {
+    background: rgb(214, 90, 90);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
