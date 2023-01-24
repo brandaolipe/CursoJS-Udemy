@@ -3,7 +3,7 @@
 // -> Dobrar os valores
 // -> Reduzir (somar tudo)
 const numeros = [5, 50, 80, 1, 2, 3, 5, 8, 7, 11, 15, 22, 27]
-const numerosPares = numeros
+const somaDobroDosPares = numeros
     .filter(valor => valor % 2 === 0)
     .map(valor => valor * 2)
     .reduce((a, valor) =>  a += valor)
@@ -12,4 +12,4 @@ const numerosPares = numeros
 // [ 50,  80,  2, 8, 22 ] .filter
 // [ 100, 160, 4, 16, 44 ] .map
 // 324 .reduce 
-console.log(numerosPares)
+console.log(somaDobroDosPares)
