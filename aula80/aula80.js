@@ -10,9 +10,9 @@ const pessoas = [
 //     novasPessoas[id] = {...pessoa}   
 // }
 
-const novasPessoas = new Map()
+const novasPessoas = new Map();
 for (const pessoa of pessoas) {
-    const {id} = pessoa
+    const {id} = pessoa;
     novasPessoas.set(id, {...pessoa})
 }
 
@@ -20,10 +20,13 @@ for (const pessoa of pessoas) {
 //     console.log(identifier, id, nome)
 // }
 
-// for(const pessoas of novasPessoas.keys()) {
+// for(const chaves of novasPessoas.keys()) {
 //     console.log(pessoas)
 // }
 
-for(const pessoas of novasPessoas) {
-    console.log(pessoas)
-}
+// for(const pessoas of novasPessoas) {
+//     console.log(pessoas)
+// }
+
+novasPessoas.delete(2);
+console.log(novasPessoas);
