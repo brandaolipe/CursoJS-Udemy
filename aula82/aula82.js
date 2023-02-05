@@ -45,7 +45,6 @@ class Tablet extends DispositivoEletronico {
     }
 }
 
-
 const s1 = new Smartphone('Samsung', 'Preto', 'Galaxy S10');
 console.log(s1);
 
