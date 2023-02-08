@@ -17,17 +17,17 @@ function esperaAi(msg, tempo) {
 esperaAi('Frase 1', rand(1, 3))
 .then(resposta => {
     console.log(resposta);
-    return esperaAi(22222, rand(1, 3));
+    return esperaAi('Frase 2', rand(1, 3));
 })
 .then(resposta => {
-    console.log(resposta)
+    console.log(resposta);
     return esperaAi('Frase 3', rand(1, 3));
 })
 .then(resposta => {
-    console.log(resposta)
+    console.log(resposta);
 })
 .catch(e => {
-    console.log('ERRO:', e)
+    console.log('ERRO:', e);
 });
 
-console.log('Isso aqui será exibido antes de qualquer promisse.')
+console.log('Isso aqui será exibido antes de qualquer promisse.');
