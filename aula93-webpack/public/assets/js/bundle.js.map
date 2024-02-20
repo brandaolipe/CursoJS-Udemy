@@ -1,0 +1,1 @@
+{"version":3,"file":"bundle.js","mappings":"0cAGA,IAEMA,E,8sBAAKC,CAAA,GAFI,CAAC,UAAW,gBAK3BC,QAAQC,IAAIH,E","sources":["webpack://aula93/./src/index.js"],"sourcesContent":["// 1\r\n// 2\r\n// 3\r\nconst carros = ['ferrari', 'lamborguini']\r\n\r\nconst lista = {\r\n    ...carros\r\n}\r\nconsole.log(lista);"],"names":["lista","_objectSpread","console","log"],"sourceRoot":""}
